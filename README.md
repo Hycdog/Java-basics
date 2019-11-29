@@ -6,6 +6,8 @@
     * [Java运行机制](#Java运行机制)
     * [注释](#注释)
     * [关键字](#关键字)
+* [基本语法](#基本语法)
+    * [保留字](#保留字)
 ### 基础知识
 #### 常用dos命令
 dir：列出当前目录下的文件及文件夹<br>
@@ -18,8 +20,8 @@ del：删除文件<br>
 exit：退出dos命令行<br>
 #### Java运行机制
 特点：
-    面向对象（封装、继承、多态）<br>
-    健壮性、完美性（去掉指针、内存申请与释放）<br>
+    面向对象（封装 继承 多态）<br>
+    健壮性 完美性（去掉指针 内存申请与释放）<br>
     跨平台(jvm)<br>
     Java核心机制：jvm,gc<br>
     jdk包含jre<br>
@@ -32,6 +34,7 @@ exit：退出dos命令行<br>
 ```
 [helloworld.java](src/helloworld.java)
 
+### 基本语法
 #### 注释
 ```java
 // 单行注释
@@ -72,7 +75,7 @@ return
 private protected public
 ```
 
-* 用于定义类、函数、变量修饰符：
+* 用于定义类 函数 变量修饰符：
 ```java
 abstract final static synchronized
 ```
@@ -86,3 +89,43 @@ extends implements
 ```java
 new this super instanceof
 ```
+
+* 用于异常处理的关键字
+```java
+try catch finally throw throws
+```
+
+* 用于包的关键字
+```java
+package import
+```
+
+* 其他修饰符关键字
+```java
+native strictfp transient volatile assert
+```
+
+#### 保留字
+Java保留字：现有Java版本尚未使用，但以后版本可能会作为关键字使用。自己命名标记符时要避免使用这些保留字 
+```java
+byValue cast future  generic  inner  operator  outer  rest  var   goto  const
+```
+
+#### 标识符
+标识符：
+Java 对各种变量、方法和类等要素命名时使用的字符序列称为标识符
+凡是自己可以起名字的地方都叫标识符。
+定义合法标识符规则：
+由26个英文字母大小写，0-9 ，_或 $ 组成  
+数字不可以开头。
+不可以使用关键字和保留字，但能包含关键字和保留字。
+Java中严格区分大小写，长度无限制。
+标识符不能包含空格。
+
+Java中的名称命名规范：
+包名：多单词组成时所有字母都小写：xxxyyyzzz
+类名、接口名：多单词组成时，所有单词的首字母大写：XxxYyyZzz
+变量名、方法名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写：xxxYyyZzz
+常量名：所有字母都大写。多单词时每个单词用下划线连接：XXX_YYY_ZZZ
+
+
