@@ -4,7 +4,8 @@
 * [基础知识](#基础知识)
     * [常用dos命令](#常用dos命令)
     * [Java运行机制](#Java运行机制)
-
+    * [注释](#注释)
+    * [关键字](#关键字)
 ### 基础知识
 #### 常用dos命令
 dir：列出当前目录下的文件及文件夹<br>
@@ -30,3 +31,58 @@ exit：退出dos命令行<br>
     }
 ```
 [helloworld.java](src/helloworld.java)
+
+#### 注释
+```java
+// 单行注释
+/* 
+    多行注释
+*/ 
+/** 按回车 文档注释
+*
+*  @author hycdog
+*  @version 1.0.0
+*/
+```
+#### 关键字
+被Java语言赋予了特殊含义，用作专门用途的字符串<br>
+特点：全为小写
+
+* 用于定义数据类型：
+```java
+class interface enum byte short
+int long float double char
+boolean void
+```
+
+* 用于定义数据类型的关键字：
+```java
+true false null
+```
+
+* 用于流程控制:
+```java
+if else switch case default
+while do for break continue
+return
+```
+
+* 用于定义访问权限：
+```java
+private protected public
+```
+
+* 用于定义类、函数、变量修饰符：
+```java
+abstract final static synchronized
+```
+
+* 类之间关系：
+```java
+extends implements
+```
+
+* 建立和引用实例，判断实例：
+```java
+new this super instanceof
+```
