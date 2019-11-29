@@ -1,8 +1,8 @@
 # Java-basics
 我的java学习笔记
 
-* [基础知识](基础知识)
-    * [常用dos命令](常用dos命令)
+* [基础知识](#基础知识)
+    * [常用dos命令](#常用dos命令)
 
 ### 基础知识
 #### 常用dos命令
@@ -21,11 +21,11 @@ exit：退出dos命令行<br>
     健壮性、完美性（去掉指针、内存申请与释放）<br>
     跨平台(jvm)<br>
     Java核心机制：jvm,gc<br>
-    jdk包含jre
-    java文件名必须与public class 类名相同
+    jdk包含jre<br>
+    java文件名必须与public class 类名相同<br>
     程序入口：
-    ```java
-        public static void main(String[] args) {
-        
-        }
-    ```
+```java
+    public static void main(String[] args) {
+    
+    }
+```
