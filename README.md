@@ -3,6 +3,7 @@
 
 * [基础知识](#基础知识)
     * [常用dos命令](#常用dos命令)
+    * [Java运行机制](#Java运行机制)
 
 ### 基础知识
 #### 常用dos命令
@@ -14,7 +15,6 @@ cd..：退回到上一级目录<br>
 cd\：退回到根目录<br>
 del：删除文件<br>
 exit：退出dos命令行<br>
-
 #### Java运行机制
 特点：
     面向对象（封装、继承、多态）<br>
@@ -23,9 +23,10 @@ exit：退出dos命令行<br>
     Java核心机制：jvm,gc<br>
     jdk包含jre<br>
     java文件名必须与public class 类名相同<br>
-    程序入口：
+    helloworld：
 ```java
     public static void main(String[] args) {
     
     }
 ```
+[helloworld.java](src/helloworld.java)
